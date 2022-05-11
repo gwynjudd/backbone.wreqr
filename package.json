@@ -1,7 +1,7 @@
 {
   "name": "backbone.wreqr",
   "description": "A Simple Service Bus For Backbone and Backbone.Marionette",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "homepage": "https://github.com/marionettejs/backbone.wreqr",
   "main": "lib/backbone.wreqr.js",
   "keywords": [
@@ -33,14 +33,17 @@
   "bugs": {
     "web": "https://github.com/marionettejs/backbone.wreqr/issues"
   },
+  "publishConfig": {
+    "registry": "http://sifnzrandd1:8084/repository/npm-private/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/marionettejs/backbone.wreqr.git"
   },
   "github": "https://github.com/marionettejs/backbone.wreqr",
   "dependencies": {
-    "backbone": ">=0.9.9 <=1.3.x",
-    "underscore": ">=1.3.3 <=1.8.3"
+    "backbone": "^1.4.1",
+    "underscore": "^1.13.3"
   },
   "devDependencies": {
     "grunt": "0.4.0",
